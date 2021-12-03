@@ -1,6 +1,4 @@
-// MOVING THE ABOVE FUNCTIONS TO A NEW FILE:2
-
-import { client } from "./index.js"/* ".js" is mandatory to specify in node but not incase of react*/;
+import { client } from "./index.js"
 function updateMovieById(id, data) {
   return client
     .db("session38")
